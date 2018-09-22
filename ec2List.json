@@ -1,0 +1,7 @@
+{
+	"list":[
+	        {"ec2Id":"i-0b4947ddfd80496ee", "name":"web", "noReboot":true, "expire":"7"},
+	        {"ec2Id":"i-08bafac12c7892301", "name":"db", "noReboot":true, "expire":"7"},
+	        {"ec2Id":"i-023ed8c9d4b97b14a", "name":"app", "noReboot":true, "expire":"1"}
+		]
+}
