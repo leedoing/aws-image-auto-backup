@@ -1,4 +1,4 @@
-# AWS EC2 Imsage Auto Backup Using Lambda, CloudWatchEvent
+# AWS EC2 Image Auto Backup Using Lambda, CloudWatchEvent, SNS
 > Using Lambda Function with python 3.6
 
 ### IAM Policy for Lambda Role
