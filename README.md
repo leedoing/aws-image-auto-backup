@@ -1,8 +1,8 @@
 # AWS EC2 Imsage Auto Backup Using Lambda, CloudWatchEvent
 > Using Lambda Function with python 3.6
 
-## IAM Policy for Lambda Role
-```json
+### IAM Policy for Lambda Role
+```js
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -31,8 +31,8 @@
 
 ```
 
-## ec2List.json Config
-```json
+### ec2List.json Config
+```js
 {
 "list":[
 	{"ec2Id":"i-0b4947ddfd80496ee", "name":"web", "noReboot":true, "expire":"7"},
@@ -42,8 +42,8 @@
 }
 ```
 
-##Lambda Run Logs
-```log
+### Lambda Run Logs
+```js
 Created Image List: [
 {
     "ec2Id": "i-0b4947ddfd80496ee",
